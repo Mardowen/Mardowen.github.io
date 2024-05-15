@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Prince Valiant;
+    src: url('PrinceValiant.ttf');
+}
+
+*{
+    font-family: Prince Valiant;
+}
+
+html { 
+    cursor: url('sword.png'), auto;  
+}
+
+body{
+    margin: 0;
+}
+
+button{
+    background-image: url('estandarte.png');
+    background-repeat:no-repeat;
+    background-size: 100px 200px;
+    height: 180px;
+    width: 100px;
+    border: 0;
+    color:rgb(0, 0, 0);
+    
+}
+
+button:hover{
+    cursor: url('sword-cruz.png'), auto;
+    color:rgb(238, 231, 10);
+
+}
+
+
+ul, li{
+    list-style: none;
+    padding: 0;
+}
+
+.custom{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: medium;
+}
+
+.xd{
+    display: flex;
+    justify-content: center; 
+}
+
+.xd2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.presentacion{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+

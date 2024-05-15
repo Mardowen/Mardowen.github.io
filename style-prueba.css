@@ -1,0 +1,13 @@
+button{
+    background-image: url('Captura.JPG');
+    background-size: 100px 100px;
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+    border: 0;
+}
+
+button:hover{
+    background-color: blueviolet;
+}
