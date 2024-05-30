@@ -1,6 +1,6 @@
 .contenedor{
     height: 400px;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     
